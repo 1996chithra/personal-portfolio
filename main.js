@@ -65,7 +65,7 @@ $(document).ready(function() {
       });
   
     //contact form to excel sheet
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbzUSaaX3XmlE5m9YLOHOBrRuCh2Ohv49N9bs4bew7xPd1qlgpvXtnudDs5Xhp3jF-Fx/exec';
+    /*const scriptURL = 'https://script.google.com/macros/s/AKfycbwmWA36xNzpAQ4IU8Rhofe1YNQOhV651PTq_eQPx1r5C7aEuxRGmmUQnq6DpWXDnryy/exec';
     const form = document.forms['submitToGoogleSheet']
     const msg = document.getElementById("msg")
   
@@ -82,7 +82,8 @@ $(document).ready(function() {
             .catch(error => console.error('Error!', error.message))
     })
       
-    });
+     });*/
+   
     
     function updateActiveSection() {
       var scrollPosition = $(window).scrollTop();
@@ -112,4 +113,3 @@ $(document).ready(function() {
     
   
    
-  
